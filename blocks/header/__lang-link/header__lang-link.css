@@ -1,0 +1,19 @@
+.header__lang-link {
+    text-decoration: none;
+    color: white;
+    display: inline;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 18px;
+}
+
+.header__lang-link:hover {
+    cursor: url('../../../vendor/Pointer.png'), auto;
+}
+
+@media (max-width: 500px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

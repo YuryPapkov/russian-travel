@@ -1,0 +1,25 @@
+@import url("./__logo/header__logo.css");
+@import url("./__lang-links/header__lang-links.css");
+@import url("./__lang-link/header__lang-link.css");
+@import url("./__lang-link/_decoration/header__lang-link_decoration_underline.css");
+.header {
+    padding: 28px 48px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 52px;
+    color: white;
+}
+
+@media (max-width:900px) {
+    .header {
+        padding: 28px 24px 0;
+    }
+}
+
+@media (max-width:500px) {
+    .header {
+        padding: 16px 16px 0;
+        height: 42px;
+    }
+}

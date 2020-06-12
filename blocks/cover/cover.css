@@ -1,0 +1,20 @@
+@import url("./__title/cover__title.css");
+@import url("./__subtitlle/cover__subtitle.css");
+@import url("./__overlay/cover__overlay.css");
+.cover {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(0.625*100vw);
+    background-image: url("./images/cover-trains.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.cover:hover {
+    cursor: url('../../vendor/Pointer.png'), auto;
+}
