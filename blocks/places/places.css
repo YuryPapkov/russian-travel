@@ -1,0 +1,17 @@
+.places {
+    list-style-type: none;
+    margin: 0;
+    padding: 92px 0 92px;
+}
+
+@media (max-width:900px) {
+    .places {
+        padding: 88px 24px 88px;
+    }
+}
+
+@media (max-width:500px) {
+    .places {
+        padding: 64px 0 64px;
+    }
+}

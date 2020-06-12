@@ -1,0 +1,10 @@
+.place__link {
+    font-size: 18px;
+    line-height: 1.22;
+    text-decoration: underline;
+    color: white;
+}
+
+.place__link:hover {
+    cursor: url('../../../vendor/Pointer.png'), auto;
+}
