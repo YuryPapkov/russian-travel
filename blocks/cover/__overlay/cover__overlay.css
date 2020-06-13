@@ -11,9 +11,4 @@
 
 .cover:hover .cover__overlay {
     opacity: .8;
-<<<<<<< HEAD
 }
-=======
-    cursor: url('../../vendor/Pointer.png'), auto;
-}
->>>>>>> a5b0529ea2369263aa9e780f4aca6833ada6cabd
