@@ -6,5 +6,6 @@
 }
 
 .place__link:hover {
-    cursor: url('../../../vendor/Pointer.png'), auto;
+    cursor: url('../../../images/pointer.png'), auto;
+    opacity: 0.8;
 }

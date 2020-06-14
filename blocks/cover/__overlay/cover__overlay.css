@@ -1,6 +1,6 @@
 .cover__overlay {
     width: 100%;
-    height: calc(0.625*100vw);
+    height: 100%;
     background-color: #2a2c2f;
     opacity: .3;
     transition: opacity .5s ease;

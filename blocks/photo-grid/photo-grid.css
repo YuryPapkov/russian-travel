@@ -7,7 +7,7 @@
                 grid-template-rows: repeat(4, calc((97vw - 96px - 28px)*.25));
                 grid-gap: 14px;
             }
-            
+
             @media (min-width:1100px) {
                 .photo-grid {
                     padding-top: 69px;
@@ -16,21 +16,31 @@
                     grid-gap: 16px;
                 }
             }
-            
+
+            @media (min-width:1280px) {
+                .photo-grid {
+                    grid-template-columns: repeat(4, 284px);
+                    grid-template-rows: repeat(3, 213px);
+                }
+            }
+
             @media (max-width:900px) {
                 .photo-grid {
                     padding: 88px 24px 0;
                     grid-template-columns: repeat(2, calc((100% - 16px)/2));
                     grid-template-rows: repeat(6, calc((97vw - 48px - 16px)*.375));
                     grid-gap: 16px;
+                    /* Основное правило написано  для 1024 и по 2 медиазапроса вверх и вниз.
+                    grid-gap меняется с 14 на 16 при движении как вверх, так и вниз.
+                    Одно дублирование я убрал, а тут получается не дублирование, а подключение правила
+                    при движении вниз.*/
                 }
             }
-            
+
             @media (max-width:500px) {
                 .photo-grid {
                     padding: 64px 16px 0;
                     grid-template-columns: 1fr;
                     grid-template-rows: repeat(12, calc((100vw - 32px)*.75));
-                    grid-gap: 16px;
                 }
             }

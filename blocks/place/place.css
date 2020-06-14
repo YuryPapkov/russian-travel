@@ -20,6 +20,7 @@
 
 @media (max-width:900px) {
     .place {
+        grid-column-gap: 28px;
         padding-top: 72px;
     }
 }

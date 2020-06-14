@@ -1,0 +1,8 @@
+@media (max-width:640px) {
+    .footer__links-item {
+        padding-top: 32px;
+    }
+    .footer__links-item:first-child {
+        padding-top: 0;
+    }
+}

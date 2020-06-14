@@ -8,6 +8,13 @@
     object-fit: cover;
 }
 
+@media (max-width:900px) {
+    .place__image {
+        width: 44.3vw;
+        height: 44.3vw;
+    }
+}
+
 @media (max-width:640px) {
     .place__image {
         width: 100%;

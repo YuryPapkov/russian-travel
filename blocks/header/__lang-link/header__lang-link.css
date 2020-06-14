@@ -8,7 +8,8 @@
 }
 
 .header__lang-link:hover {
-    cursor: url('../../../vendor/Pointer.png'), auto;
+    cursor: url('../../../images/pointer.png'), auto;
+    opacity: 0.8;
 }
 
 @media (max-width: 500px) {
